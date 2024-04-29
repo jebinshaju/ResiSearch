@@ -79,13 +79,13 @@ if st.button('Predict'):
         st.write(f'**Gender:** {gender}')
         st.write(f'**Age:** {age}')
         st.write(f'**Location:** {location}')
-        st.write(f'**Genloc index:** {input_value}')
+        #st.write(f'**Genloc index:** {input_value}')
         st.write(f'**Most likely isolate expected:** {prediction}')
 
         # Display differential probabilities
         st.write('**Differential probabilities (refer pathogen encoding):**')
         for idx, prob in enumerate(diff_probabilities):
-            st.write(f'Class {idx + 1}: {prob:.4f}')
+            st.write(f'Class {idx + 1}: {prob}')
 
         # Display disclaimer
         st.write('---')
