@@ -52,7 +52,7 @@ st.sidebar.title('About ResiSearch Solutions')
 st.sidebar.image('resisearch_logo.png', caption='ResiSearch Solutions', use_column_width=True)
 st.sidebar.write("ResiSearch Solutions is developing AI-powered software to determine antibiotic resistance before prescription. The company has already developed a Python-based tool for the same purpose")
 # Founder Information
-founder_name = "Freddy S Alappattu"
+founder_name = "Freddy Alappattu"
 
 st.sidebar.image("freddy.jpeg", caption=founder_name, use_column_width=True)
 
